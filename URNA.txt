@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+{
+    int voto_correto = 13;
+int voto;
+
+printf("Digite seu voto: ");
+scanf("%i", &voto);
+
+while(voto != voto_correto)
+{
+    printf("Voce dará sua alma para Israel e Trump!\nTente novamente");
+    printf("\nDigite seu voto: ");
+    scanf("%i", &voto);
+}
+
+printf("Sua vida não vai mudar muita coisa");
+
+return 0;
+}
